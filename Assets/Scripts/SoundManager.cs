@@ -26,7 +26,7 @@ public class SoundManager : MonoBehaviour
         Bckgrndmsic = BackGroundMusic.GetComponents<AudioSource>();
         GunshotSND = asources[0];
         ReloadGunSND = asources[1];
-        CE = asources[2];
+        CE = asources[2];               //no reference
 
         Bckgrndmsic[0].Play();
         i = 0;

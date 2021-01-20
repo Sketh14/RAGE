@@ -17,9 +17,9 @@ public class StartScreenScript : MonoBehaviour
     private GameObject currentBullet;
 
     private void Start()
-        {
+    {
         anim = GetComponent<Animator>();
-        }
+    }
 
     public void LateUpdate()
     {
